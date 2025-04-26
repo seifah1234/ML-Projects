@@ -4,42 +4,47 @@ body {
     margin: 0;
     padding: 0;
     height: 100vh;
-    background: url('../images/wallpaper.jpg') no-repeat;
+    background-image: url('../images/wallpaper3.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
     overflow: hidden;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: right;
+    background-size: 100% 100%;
   }
   .welcome {
     text-align: center;
-    padding: 20px;
-    font-size: 70px;
+    font-size: 40px;
     font-style: italic;
-    color: white;
+    color: #8B4512;
+    padding: 20px;
     width: 100%;
   }
 
   .msg {
     text-align: center;
-    padding: 20px;
-    color: white;
-    font-size: 40px;
+    font-size: 20px;
     font-style: italic;
+    padding: 20px;
     width: 100%;
     margin-bottom: 20px;
   }
 
   .container{
     text-align: center;
+    width: 50%;
+    margin-right: 90px;
   }
 
 a{
   margin: 10px;
   width: 300px;
   height: 30px;
-  background-color: white;
+  background-color: #8B4512;
   text-decoration: none;
   padding: 15px 40px;
   border-radius: 10px;
-  color: #4E342E;
+  color: white;
 }
