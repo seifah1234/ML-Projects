@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Recipe Sign-Up</title>
+  <!-- Link to external CSS file for styling -->
+  <link rel="stylesheet" href="css/sign up.css">
+ 
+
+</head>
+<body>
+  <div class="page-wrapper">
+    
+    <!-- Header Section -->
+    <div class="x">
+      <h2>Welcome to Recipe finder website!</h2>
+      <h4>Sign up to create an account</h4>
+    </div>
+
+    <!-- Form Wrapper for Centering -->
+    <div class="form-wrapper">
+      <div class="recipe">
+        <!-- Sign-up Form -->
+        <form action="#" method="POST">
+          <!-- Full Name Input Field -->
+          <div>
+            <label for="full-name">Full Name:</label><br>
+            <input id="full-name" type="text" placeholder="Enter your name" required>
+          </div>
+
+          <!-- Email Input Field -->
+          <div>
+            <label for="email">Email:</label><br>
+            <input id="email" type="email" placeholder="Enter your email" required>
+          </div>
+
+          <!-- Password Input Field -->
+          <div>
+            <label for="password">Password:</label><br>
+            <input id="password" type="password" placeholder="Enter your password" required>
+          </div>
+
+          <!-- Confirm Password Input Field -->
+          <div>
+            <label for="confirm-password">Confirm Password:</label><br>
+            <input id="confirm-password" type="password" placeholder="Confirm password" required>
+          </div>
+
+          <!-- Terms and Conditions Checkbox -->
+          <div>
+            <input id="terms" type="checkbox" required>
+            <label for="terms">I agree to the terms</label>
+          </div>
+
+          <!-- Admin Sign Up Checkbox -->
+          <div class="checkbox-admin">
+            <input type="checkbox" id="admin signup" name="admin signup">
+            <label for="admin signup">Sign up as admin</label>
+          </div>
+
+          <!-- Submit Button -->
+          <div>
+            <button type="submit" id="btn">Sign Up</button>
+          </div>
+
+        </form>
+      </div>
+    </div>
+
+    <!-- Hamburger Menu for Mobile -->
+    <div class="menu-container">
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+    <script src="js/signup.js"></script>
+</body>
+</html>

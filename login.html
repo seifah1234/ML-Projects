@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Recipe Finder</title>
+    <link rel="stylesheet" href="css/login.css"> 
+</head>
+<body>
+    <header style="display: none;">
+        <div class="menu-container">
+            <div class="hamburger">     <!--  creates a hamburger menu (three-line icon) for mobile screens. -->
+                <span></span> <!--The <span> elements are empty but will be styled with CSS to look like the three lines of the hamburger menu.-->
+                <span></span>
+                <span></span>
+            </div>
+        <div class="logo">Recipe Finder</div>
+        
+        <nav class="nav-menu">  <!--  contains the navigation links for different pages. -->
+            <a href="home.html">Home</a>
+            <a href="search.html">Search Recipe</a>
+            <a href="recipes.html">Recipes</a>
+            <a href="favorite.html">Favorites</a>
+            <a href="login.html">Login</a>
+            <a href="signup.html">Sign Up</a>
+        </nav>
+    </div>
+    </header>
+    <div class="login-container">
+        <div class="login-card"> <!--  card that contains the login form. -->
+            <div class="login-header">
+                <h2>Welcome Back!</h2>
+                <p>Sign in to access your recipe collection</p>
+            </div>
+            
+            <div class="login-form">
+                <form> <!--  form for user login. -->
+                    <div class="form-group">
+                        <label for="email">Email Address</label>  <!--Displays "Email Address" above the input field that its type is email.-->
+                        <input type="email" id="email" placeholder="Enter your email" >
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" placeholder="Enter your password">
+                    </div>
+
+                    <div class="admin-remember">
+                        <div class="checkbox-admin">
+                            <input type="checkbox" id="adminLogin" name="adminLogin">
+                            <label for="adminLogin">Login as admin</label>
+                        </div>
+                        <div class="checkbox-remember">
+                            <input type="checkbox" id="rememberMe" name="rememberMe">
+                            <label for="rememberMe">Remember me</label>
+                        </div>
+                        
+                    </div>
+                    
+                 
+                    <button type="submit" class="login-button">Login to Your Kitchen</button>
+                    
+                    <div class="signup-link">
+                        New to Recipe Finder? <a href="signup.html">Create an account</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="js/login.js"></script>
+</body>
+</html>

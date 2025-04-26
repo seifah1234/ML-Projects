@@ -1,0 +1,110 @@
+/* General Body Settings */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif; /* Use 'Segoe UI' font for the body */
+}
+
+/* Page Wrapper for Relative Positioning */
+.page-wrapper {
+    position: relative;
+    min-height: 100vh; /* Ensure page takes up the full height of the viewport */
+}
+
+/* Form Centering Wrapper */
+.form-wrapper {
+    position: relative;
+    height: 100vh; /* Take up the full height for centering */
+}
+
+/* Header Styling */
+.x {
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    margin: 50px auto; /* Margin around the header */
+    padding: 25px;
+    background: linear-gradient(to right, #4E342E, #6D4C41); /* Gradient background */
+    color: #EFEBE9; /* Text color */
+    border-radius: 25px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15); /* Shadow effect */
+}
+
+/* Form Section Styling */
+.recipe {
+    position: absolute;
+    top: 50%; /* Center the form vertically */
+    left: 50%; /* Center the form horizontally */
+    transform: translate(-50%, -50%); /* Centering with translate */
+    text-align: left;
+    width: 100%;
+    max-width: 400px; /* Limit the width of the form */
+    padding: 30px;
+    background-color: #EFEBE9; /* Light background color */
+    border-radius: 25px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    margin-top: 5px; /* Add space between the header and the form */
+}
+
+/* Input Fields Styling */
+label {
+    display: block; 
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #4E342E; /* Label text color */
+}
+
+input {
+    width: 95%; 
+    padding: 12px 15px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    border: 2px dashed #D7CCC8; /* Dashed border for inputs */
+    border-radius: 8px;
+    font-size: 16px;
+    transition: all 0.3s;
+    background-color: rgba(255, 255, 255, 0.8); /* Light background */
+    text-align: left; /* Left-align text */
+}
+
+input:focus {
+    border-color: #6D4C41; /* Change border color on focus */
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(141, 110, 99, 0.2); /* Light shadow when focused */
+}
+
+/* Checkbox Alignment Styling */
+label[for="terms"], #terms {
+    text-align: center; 
+    display: block;
+    margin-left: 11px;
+    margin-bottom: 20px;
+}
+
+/* Submit Button Styling */
+button {
+    background: linear-gradient(to right, #6D4C41, #4E342E); /* Gradient background */
+    color: #EFEBE9;
+    padding: 14px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: all 0.3s;
+    text-transform: uppercase;
+}
+
+button:hover {
+    transform: translateY(-2px); /* Hover effect to raise button */
+    box-shadow: 0 5px 15px rgba(93, 64, 55, 0.4); /* Shadow effect on hover */
+}
+
+/* Admin Checkbox Styling */
+.checkbox-admin {
+    margin-bottom: 10px;
+    font-family: Arial, sans-serif;
+    color: black;
+    text-align: center;
+}
+
